@@ -1,0 +1,372 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"navigationStyle":"custom",
+			"style": {
+				"app-plus": {
+				    "titleNView": false
+				}
+			}
+		}
+        ,{
+            "path" : "pages/login/login",
+            "style": {
+                "app-plus": {
+                    "titleNView": {
+						"titleText": "登录"
+                    }
+                }
+            }
+        }
+        ,{
+            "path" : "pages/password/password",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "找回密码"
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "注册"
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/contactUs/contactUs",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "联系我们"
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "项目详情"
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/buy/buy",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "买入"
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/sell/sell",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "卖出"
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/agreement/agreement",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "项目投资协议",
+						"splitLine":{"color":"#d8d8d8"}
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/deal-turnover/deal-turnover",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "交易流水"
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/deal-voucher/deal-voucher",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "交易凭证"
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/project/project",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "在筹项目",
+						"autoBackButton": false
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/change/change",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "转让区"
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" : {
+				"app-plus": {
+				    "titleNView": false
+				}
+			}
+        }
+        ,{
+            "path" : "pages/apply/apply",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "申请筹款"
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/apply-info/apply-info",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "申请筹款"
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/apply-finish/apply-finish",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "申请筹款"
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/apply-reason/apply-reason",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "不通过原因"
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/news/news",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "消息"
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/newsDetail/newsDetail",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "详情"
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/recharge/recharge",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "充值"
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user-assets/user-assets",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "我的资产"
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/withdrawal/withdrawal",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "提现"
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user-assetsDetail/user-assetsDetail",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "资产明细"
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user-setting/user-setting",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "账户设置"
+						// "splitLine":{"color":"#d8d8d8"}
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/setting-safe/setting-safe",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "账户与安全"
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/setting-phone/setting-phone",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "更换手机号"
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/setting-modify/setting-modify",
+            "style" : {
+				"app-plus": {
+				    "titleNView": false
+				}
+			}
+        }
+        ,{
+            "path" : "pages/setting-password/setting-password",
+            "style" : {
+				"app-plus": {
+				    "titleNView": false
+				}
+			}
+        }
+        ,{
+            "path" : "pages/setting-bank/setting-bank",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "银行卡"
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/setting-addBank/setting-addBank",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "添加银行卡"
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/setting-payPassword/setting-payPassword",
+            "style" : {
+				"app-plus": {
+				    "titleNView": false
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user-deal/user-deal",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "交易流水"
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user-project/user-project",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "投资项目"
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/transfer/transfer",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "转让"
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user-recommend/user-recommend",
+            "style" : {
+				"app-plus": {
+				    "titleNView": {
+						"titleText": "推荐给好友"
+				    }
+				}
+			}
+        }
+    ],
+	"globalStyle": {
+		//"navigationStyle":"custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#FFFFFF"
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}
